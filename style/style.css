@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body{
+    font-family:  'Work Sans', sans-serif;
+    color: rgb(234, 237, 243);
+    background-color: rgb(54, 53, 53);
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 15px;
+}
+header{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+a{
+    color: rgb(234, 237, 243);
+}
+a:hover{
+    color: rgb(152, 176, 255);
+}
+h3{
+    margin: 0;
+    padding: 0; 
+}
+h2{
+    margin: 0;
+    font-size: 26px;
+    padding: 0;
+}
+h1{
+    margin: 0;
+    font-size: 35px;
+    padding: 0;
+}
+main{
+    gap: 70px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding-top: 45px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    gap: 10px;
+}
+img{
+    width: 300px;
+    border-radius: 50%;
+    margin: 10px;
+}
+input{
+    outline: 0;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: none;
+}
+#btn-enviar{
+    background-color: rgb(142, 168, 238);
+    color: white;
+    height: 50px;
+    
+}
+#btn-enviar:hover{
+    cursor: pointer;
+    background-color: rgb(57, 103, 255);
+}
+.M{ 
+    font-weight: 400;
+    margin: 0;
+    padding: 0; 
+    font-size: 20px;
+}
